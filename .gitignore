@@ -1,4 +1,8 @@
-# venv environments
-.venv
+# pixi environments
+.pixi
+*.egg-info
+# magic environments
+.magic
+
 # jupyter checkpoints
 .ipynb_checkpoints

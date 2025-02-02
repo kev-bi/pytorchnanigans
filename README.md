@@ -1,4 +1,4 @@
 # Pytorchnanigans
 
-Experimenting with Pytorch.
+Experimenting with Pytorch and related libraries and frameworks
 
