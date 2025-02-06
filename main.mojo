@@ -1,9 +1,10 @@
 from mlib import Matrix
 
 alias f32 = DType.float32
+
 fn main() raises:
     var m = Matrix[f32](2, 3)
-    print("String: {!s}\nRepresentation: {!r}".format(m, m))
+    print("String: {!s}\nRepresentation: {!r}\n".format(m, m))
 
     m.ones()
     print("String: {!s}\n".format(m))

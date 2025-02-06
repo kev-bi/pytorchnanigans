@@ -43,7 +43,7 @@ struct Matrix[dtype: DType](Copyable, Movable, Stringable, Representable, Writab
         """
         memset_zero(self.data, self.rows * self.cols)
     
-    fn ones(owned self):
+    fn ones(mut self):
         """
         Sets all matrix elements to one.
         """
